@@ -49,7 +49,6 @@ class HMNet{
                 
                 let js = JSON(value)
                 let m = model.init(json:js)
-                
                 success(m)
                 
             case .failure(let error):

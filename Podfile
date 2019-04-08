@@ -25,8 +25,8 @@ target 'HMBaseProj' do
     pod 'Fusuma' #相机、图片
 
 
-
-
+    pod 'Siren' #appstore更新提示
+    
 
 
 

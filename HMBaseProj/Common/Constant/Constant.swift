@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import HMKit
 
 let kSbjColor = UIColor(hex: "#14A9ED")  //主题色
 let kNaviBackItemImgName = "nav_back"   //navi返回按钮
