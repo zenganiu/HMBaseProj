@@ -10,7 +10,7 @@ import Foundation
 import SystemConfiguration
 import SystemConfiguration.CaptiveNetwork
 
-extension String{
+public extension String{
     
     //MARK:-- 16进制转10进制
     static func hexToInt(num: String) -> Int {
@@ -55,7 +55,7 @@ extension String{
 
 
 
-extension String {
+public extension String {
     
     
     //MARK:-- 获取当前APP版本
@@ -156,7 +156,7 @@ extension String {
     
 }
 
-extension String {
+public extension String {
     
     //MARK:-- 获取类名
     static func className(_ aClass: AnyClass) -> String {
@@ -172,7 +172,7 @@ extension String {
 }
 
 
-extension String{
+public extension String{
     
     
    static func validate(pattern:String,validateString: String)->Bool{

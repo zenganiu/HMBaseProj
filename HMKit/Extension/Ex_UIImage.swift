@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIImage {
+public extension UIImage {
     
     //MARK:--改变前景色
     func tintColor(color: UIColor) -> UIImage {

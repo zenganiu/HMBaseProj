@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension UserDefaults{
+public extension UserDefaults{
     
     //删除UserDefaults所有记录
     class func reset(){

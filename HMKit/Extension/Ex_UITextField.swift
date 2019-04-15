@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UITextField{
+public extension UITextField{
     
     /**限制长度 */
     func limitLength(length:Int){

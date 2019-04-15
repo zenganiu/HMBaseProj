@@ -11,7 +11,7 @@ import Foundation
 public extension Data {
     
     //MARK:-- 根据开始位置和长度截取数据
-    public func subData(start: Int, length: Int)->Data{
+    func subData(start: Int, length: Int)->Data{
         
         let startIndex = self.startIndex.advanced(by: start)
         let endIndex   = self.startIndex.advanced(by: start+length)
@@ -19,7 +19,7 @@ public extension Data {
     }
     
     //MARK:-- 二进制流转十进制
-    public func intValue() ->Int{
+    func intValue() ->Int{
         
         var value: Int = 0
         for (index,byte) in self.enumerated(){
@@ -33,7 +33,7 @@ public extension Data {
     ///  data 转换成浮点数
     ///
     /// - Returns: Float
-    public func floatValue()->Float{
+    func floatValue()->Float{
         
         var value: Int = 0
         for (index,byte) in self.enumerated(){

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIStoryboard{
+public extension UIStoryboard{
     
     //MARK:--获取storyboard中控制器
     static func initViewController<T:AnyObject>(name: String,vc: T.Type)-> T{

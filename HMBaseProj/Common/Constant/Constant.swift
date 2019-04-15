@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import HMKit
 
-let kSbjColor = UIColor(hex: "#14A9ED")  //主题色
+let kSbjColor = UIColor.red  //主题色
 let kNaviBackItemImgName = "nav_back"   //navi返回按钮
 let kPgyerKey = "4f5813759fc291ee4713ca6d53ab9025"  //蒲公英key
 

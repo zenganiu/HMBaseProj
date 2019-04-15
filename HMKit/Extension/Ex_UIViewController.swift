@@ -72,7 +72,7 @@ extension UIViewController{
 
 
 // FIXME:--跳转
-extension UIViewController{
+public extension UIViewController{
     
     func presentVC(vc:UIViewController) {
         

@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-extension UIButton{
+public extension UIButton{
     
     func startSMSWithDuration(duration:Int){
         

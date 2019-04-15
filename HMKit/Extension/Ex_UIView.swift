@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIView {
+public extension UIView {
     
     //MARK:-- 从nib加载视图
     class func loadNib() -> Self {

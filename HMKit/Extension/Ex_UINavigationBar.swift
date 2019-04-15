@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UINavigationBar{
+public extension UINavigationBar{
     
     func titleColor(color: UIColor){
         self.titleTextAttributes = [NSAttributedString.Key.foregroundColor:color]
