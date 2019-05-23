@@ -2,23 +2,26 @@ PODS:
   - Alamofire (4.8.2)
   - CryptoSwift (1.0.0)
   - DNSPageView (1.1.6)
-  - ESTabBarController-swift (2.6.4)
+  - ESTabBarController-swift (2.7)
   - Eureka (5.0.0)
   - Fusuma (1.3.3)
   - Hero (1.4.0)
-  - IQKeyboardManagerSwift (6.2.1)
-  - Kingfisher (5.3.1)
-  - MJRefresh (3.1.16)
-  - RxCocoa (4.5.0):
-    - RxSwift (>= 4.4.2, ~> 4.4)
-  - RxSwift (4.5.0)
-  - Siren (5.0.0)
-  - SnapKit (4.2.0)
-  - SQLite.swift (0.11.5):
-    - SQLite.swift/standard (= 0.11.5)
-  - SQLite.swift/standard (0.11.5)
-  - SwiftyJSON (4.3.0)
-  - SwiftyUserDefaults (3.0.1)
+  - IQKeyboardManagerSwift (6.3.0)
+  - Kingfisher (5.5.0)
+  - MJRefresh (3.2.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - Siren (5.1.0)
+  - SnapKit (5.0.0)
+  - SQLite.swift (0.12.0):
+    - SQLite.swift/standard (= 0.12.0)
+  - SQLite.swift/standard (0.12.0)
+  - SwiftyJSON (5.0.0)
+  - SwiftyUserDefaults (4.0.0)
 
 DEPENDENCIES:
   - Alamofire
@@ -52,6 +55,7 @@ SPEC REPOS:
     - Kingfisher
     - MJRefresh
     - RxCocoa
+    - RxRelay
     - RxSwift
     - Siren
     - SnapKit
@@ -63,21 +67,22 @@ SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
   DNSPageView: df84b178394ddf4a73b2d19baf4deb24b4a4ba33
-  ESTabBarController-swift: 58cca4ab7de980657d99a02181c1ff310983e975
+  ESTabBarController-swift: 4fb52ad03d94d0717ef97bc9eb09a5abfdded0a2
   Eureka: 0f64f477ec8ef6201c6fec143d60ff5c201cf654
   Fusuma: 3bd08c8c5341ec60c0074fa28570fea8765966f0
   Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
-  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
-  Kingfisher: d9e7e0b209b59b8f9873aa2f37654e81a7beea51
-  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
-  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
-  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
-  Siren: b13a16a26591421b2fe734128baa3eeb8b7e4f73
-  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
-  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
-  SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  Kingfisher: 6fe5e67a90fd335e49b0f5c075ff55ac5ebedd94
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  Siren: 1dbdbd5dccd55865369a83f3d57c8eb818ac1556
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  SQLite.swift: 7cad9db150a03716336e69469ec9559c85aece5b
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwiftyUserDefaults: 6a1951df1daa19337862b677dd9a4b9bd4c288cd
 
 PODFILE CHECKSUM: dde12cfac3c2aaa9124e647a9ca9dce7723ec3e9
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.2
